@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    body { 
+        background-color: #D5E1EF;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5em auto;
+    }
+    .cuerpoCarta { 
+        background-color: white; 
+        text-align: center; 
+        border-radius: 1em;
+        width: 23em; 
+        height: 100%;
+    }
+    .imagenCarta { 
+        border-radius: 1em; 
+        margin-top: 1em;
+        width: 21em; 
+    }
+    .contenedorTexto { 
+        margin: 2em 1.5em;
+    }
+    .tituloCarta { 
+        font-weight: bold;
+    }
+    .textoCarta {
+        color: #858994;
+        margin: 0 1em;
+    }
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+  </style>
+</head>
+<body>
+
+  <article class="flex-container">
+        <div class="cuerpoCarta">
+          <img class="imagenCarta" src="images/image-qr-code.png" alt="QR Code" />
+          <div class="contenedorTexto">
+            <h1 class="tituloCarta">
+              Improve your front-end skills by building projects</h1>
+            <h4 class="textoCarta">
+              Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+            </h4>
+          </div>
+        </div>
+  </article>
+
+  <div class="attribution container-fluid">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Pablo Ruiz</a>.
+  </div>
+  
+</body>
+</html>
