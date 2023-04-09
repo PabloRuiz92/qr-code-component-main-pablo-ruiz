@@ -17,7 +17,7 @@ Little project to practice HTML, CSS and Bootstrap.
 
 ### Screenshot
 
-![](./images/Screenshot%202023-04-05%20at%2018-29-18%20Frontend%20Mentor%20QR%20code%20component.png)
+![image](./images/Screenshot%202023-04-05%20at%2018-29-18%20Frontend%20Mentor%20QR%20code%20component.png)
 
 ### Links
 
